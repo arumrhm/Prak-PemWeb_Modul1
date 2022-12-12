@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Praktikum Pertemuan 1 Pemrograman Web</title>
+    </head>
+    <body>
+	    <img src="subak.jpeg" alt="subak tidak ditemukan" width="170" height="220">
+	    <h1>Hai Aku Adalah Penyemangat Kamu</h1>
+	    <p>Seorang Canadian Rapper</p>
+
+       <ul> 
+        <li><a href="">Tentang Saya</a></li>
+        <li><a href="">Pengalaman Kerja</a></li>
+        <li><a href="">Hubungi Saya</a></li>
+       </ul>
+
+        <h3>Tentang Saya</h3>
+        <p>Aku adalah seorang Canadian Rapper dari salah satu grup yang ada di korea. Grup tersebut berada di bawah naungan SM Entertainment</br>
+        Nama grup tersebut ialah NCT, Aku berada di beberapa unit dari NCT yaitu NCT 127, NCT Dreams</br>
+        Selain bergabung di unit NCT, Aku juga bergabung dalam grup lain seperti SuperM</br>
+        </p>
+        <figure>
+            <video
+              width="500"
+              height="300"
+              src="subak.mp4"
+              controls
+              autoplay
+              muted
+            ></video>
+            <figcaption>video Saya</figcaption>
+          </figure>
+
+        <h3>Pengalaman Kerja</h3>
+        <table border="1">
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">Posisi</th>
+                <th rowspan="2">Perusahaan</th>
+                <th rowspan="2">Unit</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Leader</td>
+                    <td>SM Entertainment</td>
+                    <td>NCT Dreams</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Rapper</td>
+                    <td>SM Entertainment</td>
+                    <td>NCT 127</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Rapper</td>
+                    <td>SM Entertainment</td>
+                    <td>SuperM</td>
+                </tr> 
+            </tbody>
+        </table>
+
+        <h3>Hubungi Saya</h3>
+        <label for="nama">Nama : </label>
+        <input id="nama" type="text">
+
+        <form>
+            <p>Apakah Kamu Pernah Berpaling dari Aku ?</p>
+            <div>
+              <input id="lk" type="radio" name="Apakah sudah Sayang Saya ?">
+              <label for="lk">Tentu saja belum</label>
+            </div>
+          
+            <div>
+              <input id="pr" type="radio" name="Apakah sudah Sayang Saya ?">
+              <label for="pr">Sedikit</label>
+            </div>
+          </form>
+
+          <form action="proses.php" method="get">
+            <p>
+                <label for="tanya"><b>Apakah Aku?</b></label> <br>
+                <input type='checkbox' name='pilihan1' value='imut' />IMUT<br>
+                <input type='checkbox' name='pilihan2' value='lucu' />TAMPAN<br>
+                <input type='checkbox' name='pilihan3' value='gemoy' />GEMOY<br>
+                <input type='submit' name='tombol' value='Kirim' /><br>
+            </p>
+      </form>
+      <P>Terima kasih sudah selalu setia pada ku :)</P>
+    </body>
+</html>
